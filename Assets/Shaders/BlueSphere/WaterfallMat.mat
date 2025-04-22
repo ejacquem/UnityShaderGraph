@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: YColorGradient
-  m_Shader: {fileID: -6465566751694194690, guid: 18b2cd304414c67ee9c805049dea971d, type: 3}
+  m_Name: WaterfallMat
+  m_Shader: {fileID: -6465566751694194690, guid: e21117806efa3a3cb8f874f165407925, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -40,17 +40,15 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WORLDSPACE: 0
     - _WorldSpace: 0
     m_Colors:
-    - _BoundY: {r: -1, g: 0, b: 0, a: 0}
-    - _Color1: {r: 0.20784314, g: 0.7764706, b: 0.9529412, a: 1}
-    - _Color2: {r: 0.039215688, g: 0.29803923, b: 0.48235294, a: 1}
-    - _LightDir: {r: 0.41, g: 0.41, b: 0, a: 0}
-    - _LightOrigin: {r: 0, g: 5, b: 0, a: 0}
+    - _BoundY: {r: -0.5, g: 0.5, b: 0, a: 0}
+    - _Color1: {r: 0.25490198, g: 0.7058824, b: 0.7529412, a: 0}
+    - _Color2: {r: 0.05882353, g: 0.2, b: 0.24705882, a: 0}
+    - _LightOrigin: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &279308072551576701
+--- !u!114 &2948915963262111712
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

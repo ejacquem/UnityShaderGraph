@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "LearnShaderGraph.sln"
+    "dotnet.defaultSolution": "UnityShaderGraph.sln"
 }
